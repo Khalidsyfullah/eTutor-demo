@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:text="@string/a28"
+            android:textColor="#191919"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ECEFF1"
+            android:ems="10"
+            android:hint="@string/a29"
+            android:inputType="textPersonName"
+            android:lines="3"
+            android:padding="6dp"
+            android:autofillHints="a1" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:text="@string/a30"
+            android:textColor="#191919"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ed"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="20dp"
+            android:autoLink="all"
+            android:autofillHints="a1"
+            android:background="#ECEFF1"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="@string/a29"
+            android:inputType="textMultiLine|textPersonName"
+            android:lines="4"
+            android:padding="6dp"
+            android:singleLine="false" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:text="@string/a31"
+            android:textColor="#191919"
+            android:textSize="20sp" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="1dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:ms_background_color="#ECEFF1"
+            app:ms_padding_bottom="1dp"
+            app:ms_padding_left="15dp"
+            app:ms_padding_right="8dp"
+            app:ms_padding_top="1dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:text="@string/a32"
+            android:textColor="#191919"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="a1"
+            android:background="#ECEFF1"
+            android:ems="10"
+            android:hint="@string/a29"
+            android:inputType="textPersonName"
+            android:lines="3"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:text="@string/a33"
+            android:textColor="#191919"
+            android:textSize="20sp" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="1dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:ms_background_color="#ECEFF1"
+            app:ms_padding_bottom="1dp"
+            app:ms_padding_left="15dp"
+            app:ms_padding_right="8dp"
+            app:ms_padding_top="1dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:text="@string/a34"
+            android:textColor="#191919"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ed3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="20dp"
+            android:autoLink="all"
+            android:autofillHints="a1"
+            android:background="#ECEFF1"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="@string/a29"
+            android:inputType="textMultiLine|textPersonName"
+            android:lines="2"
+            android:padding="6dp"
+            android:singleLine="false" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/ed2"
+            android:fontFamily="@font/coda"
+            android:text="@string/a35"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pass1" />
+    </LinearLayout>
+</ScrollView>

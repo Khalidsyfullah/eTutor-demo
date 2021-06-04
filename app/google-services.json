@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648151368267",
+    "project_id": "etutor-c8111",
+    "storage_bucket": "etutor-c8111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648151368267:android:720030bfd91c12e80d83ce",
+        "android_client_info": {
+          "package_name": "com.akapps.etutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648151368267-lqq52npgsp2sg6m34prgcuarf35l5iid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNMJPUpAJDf8sYV1quH1-PZLZ3zHdpUko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648151368267-lqq52npgsp2sg6m34prgcuarf35l5iid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

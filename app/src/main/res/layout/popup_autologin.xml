@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:paddingStart="2dp"
+        android:paddingEnd="10dp"
+        app:drawableEndCompat="@drawable/ic_multiply" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/a44"
+        android:textColor="#00137C"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ed1"
+        android:padding="5dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/ed4"
+        android:fontFamily="@font/coda"
+        android:text="@string/a3" />
+</LinearLayout>
